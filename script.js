@@ -1,7 +1,7 @@
 const btn = document.querySelector (".btn btn-dark");
 const texto = document.querySelector(".texto");
 
-fetch (`http://localhost:3000/filmes/busca-por-livro/${texto}`)
+fetch (`http://localhost:3000/filmes/busca-por-livro/${encodeURI(textoPesquisa)}`)
     .then ((response) => {
         return response.json();
     })  
