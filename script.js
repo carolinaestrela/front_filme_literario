@@ -8,7 +8,7 @@ buttonPesquisa.addEventListener("click", (event) => {
         return;
     }
 
-    fetch(`http://localhost:3000/filmes/busca-por-livro/${encodeURI(textoPesquisa)}`)
+    fetch(`https://filmeliterario.herokuapp.com/filmes/busca-por-livro/${encodeURI(textoPesquisa)}`)
         .then((response) => {
             return response.json();
         })
