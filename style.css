@@ -1,29 +1,8 @@
- html, body {
-    font-family: 'Dosis', sans-serif;
-    line-height: 1.6;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-}
-
 .form {
     display: flex;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-label {
-    display: block;
-}
-
-button {
-    background: #F5C518;
-    padding: 10px;
-    border: none;
-    height:50px;
-    font-size: 1.1em;
-    text-transform: uppercase;
 }
 
 img {
@@ -42,12 +21,16 @@ p {
 
 .box {
     margin: 10px 0;
-    padding: 20px;
-    background: #ececec
+    padding: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
 
-.box-divider {
-    margin-left: 30px;
+.iframe-trailer {
+    margin-top: 5px;
 }
 
 .pesquisa {
@@ -66,4 +49,40 @@ p {
 .ano {
     font-size: 14px;
     font-weight: bold
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+footer {
+    background-color: #363535;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+    color: #fff;
+}
+
+.que-filme-hoje {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descricao-site {
+    text-align: center;
+    color: rgb(115, 115, 115);
+}
+
+#inputTextoPesquisa, #buttonPesquisa {
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 20px;
 }
